@@ -147,6 +147,7 @@ spec:
                             type: array
                           extraArgs:
                             additionalProperties:
+                              nullable: true
                               type: string
                             description: |-
                               ExtraArgs is an extra set of flags to pass to the control plane component.
